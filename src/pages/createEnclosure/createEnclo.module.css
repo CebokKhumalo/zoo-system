@@ -1,0 +1,54 @@
+.background {
+    background-color: rgba(240, 234, 234, 0.801);
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table {
+    width: 100%;
+}
+
+.card {
+    background-color: #47789fa0;
+    /* border-color: rgba(0, 0, 0, 0); */
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.centerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    background-color: #0b1320 /* rgba(125, 167, 59, 0.735)*/;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonText{
+    color:azure;
+}

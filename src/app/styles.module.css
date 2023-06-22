@@ -1,0 +1,50 @@
+.background {
+    background-image: url('../../public/Images/Barn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table {
+    width: 100%;
+}
+
+.card {
+    background-color: rgba(128, 128, 128, 0.464);
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.inputField {
+    background-color: rgba(0, 0, blue, 0.5);
+    width: 60%;
+    position: absolute;
+    right: 0;
+    text-align: left;
+}
+
+.menu {
+    height: 100%;
+    padding: -5px;
+    background-color: #0b1320;
+    height: 50%;
+    width: 100%;
+}
+
+.link {
+    color: white;
+}
+
+.link a:hover {
+    color: rgb(179, 218, 218);
+}

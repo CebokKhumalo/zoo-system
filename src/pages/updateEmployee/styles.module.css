@@ -1,0 +1,42 @@
+.background {
+    background-image: url('../../../public/Images/Barn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table {
+    width: 50%;
+}
+
+.card {
+    background-color: rgba(106, 85, 85, 0.589);
+    /*width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: left; */
+}
+
+.cardInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputField {
+    background-color: rgba(0, 0, blue, 0.5);
+    width: 60%;
+    position: absolute;
+    right: 0;
+    text-align: left;
+}

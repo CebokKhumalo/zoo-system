@@ -2,9 +2,8 @@ import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from './page.module.css';
 import LoginPage from '@/pages/loginPage';
-
-const inter = Inter({ subsets: ['latin'] });
+import RootLayout from './layout';
 
 export default function Home() {
-    return <LoginPage />;
+    <RootLayout children={undefined} />;
 }

@@ -1,0 +1,40 @@
+.background {
+    background-color: rgba(240, 234, 234, 0.801);
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.table {
+    width: 50%;
+}
+
+.card {
+    background-color: #47789fa0;
+    /* border-color: rgba(0, 0, 0, 0); */
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.cardInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputField {
+    background-color: rgba(0, 0, blue, 0.5);
+    width: 60%;
+    position: absolute;
+    right: 0;
+    text-align: left;
+}
